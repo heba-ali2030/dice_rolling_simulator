@@ -52,7 +52,7 @@ while True:
     print('----------------------------------------------------------------------')
 
     # Ask the user to roll dice again or to exit
-    play_again = spelling_validity(input('Do you want to roll again? \n, Type Yes or y to play again and no or n to exit ! \n ')).casefold()
+    play_again = spelling_validity(input('Do you want to roll again? \n Type Yes or y to play again and no or n to exit ! \n ')).casefold()
 
     # if choose yes:
     if play_again == 'n' or play_again == 'no':
@@ -61,3 +61,5 @@ while True:
     
  # to leaave space between rolling:
     print('^_^')
+
+    
