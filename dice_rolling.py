@@ -24,7 +24,11 @@ def number_validity(number):
     return int(number)
 
 # function to evaluate your luck in rolling dice
-
+def luck():    
+        if dice == max or dice == 6:
+            print(f'wooooow, your dice number is {dice} ')
+        else:
+            print(f'Not bad, your dice number is {dice}')
 
 # greetings and begin the game:
 print(f'Hi, let\'s play together!\n')
@@ -50,13 +54,7 @@ while True:
         # make random choice between (min) and (max)
         dice = random.randint(minimum, maximum)
 
-    # print the user rolling number
-    def luck():    
-        if dice == max or dice == 6:
-            print(f'wooooow, your dice number is {dice} ')
-        else:
-            print(f'Not bad, your dice number is {dice}')
-        
+    # print the user rolling number   
     luck()
     print('----------------------------------------------------------------------')
 
